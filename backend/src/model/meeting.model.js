@@ -1,0 +1,11 @@
+import {Schema} from 'mongoose';
+
+const meetingSchema = new Schema({
+    user_id:{type:String},
+    meeting_id:{type:String, required:true},
+    date:{type:Date,Default:Date.now(), required:true},
+});
+
+const Meeting = mongoose.model('Meeting', meetingSchema);
+
+export {Meeting};

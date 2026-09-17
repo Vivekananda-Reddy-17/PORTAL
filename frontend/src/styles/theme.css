@@ -1,0 +1,56 @@
+:root[data-theme="dark"] {
+  --background: #111111;
+  --surface: #1a1a1a;
+  --card: #222222;
+
+  --foreground: #ffffff;
+  --muted: #a3a3a3;
+
+  --border: #333333;
+
+  --primary: #f97316;
+  --primary-hover: #ea580c;
+
+  --primary-soft: rgba(249, 115, 22, 0.1);
+  --primary-border: rgba(249, 115, 22, 0.2);
+
+  --success: #22c55e;
+  --warning: #facc15;
+  --danger: #ef4444;
+
+  --surface-hover: #202020;
+  --primary-shadow: rgba(249, 115, 22, 0.12);
+
+  --primary-foreground: #111111;
+  --navbar: rgba(17, 17, 17, 0.85);
+  --danger: #ef4444;
+}
+
+:root[data-theme="light"] {
+  --background: #f8f8f8;
+  --surface: #ffffff;
+  --card: #ffffff;
+
+  --foreground: #111111;
+  --muted: #666666;
+
+  --border: #dddddd;
+
+  --primary: #f97316;
+  --primary-hover: #ea580c;
+
+  --primary-soft: rgba(249, 115, 22, 0.1);
+  --primary-border: rgba(249, 115, 22, 0.2);
+
+  --success: #22c55e;
+  --warning: #facc15;
+  --danger: #ef4444;
+  --surface-hover: #f3f4f6;
+  --primary-shadow: rgba(249, 115, 22, 0.12);
+
+  --primary-foreground: #111111;
+  --navbar: rgba(255, 255, 255, 0.85);
+  --danger: #dc2626;
+}
+
+
